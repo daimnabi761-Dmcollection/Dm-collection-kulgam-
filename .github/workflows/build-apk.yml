@@ -1,4 +1,4 @@
-name: Build DM Collection APK
+Build DM Collection APK
 
 on:
   workflow_dispatch:
@@ -41,6 +41,7 @@ jobs:
         with:
           name: dm-collection-apk
           path: "**/build/outputs/apk/debug/*.apk"
+
 
 
           
